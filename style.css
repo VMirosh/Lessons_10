@@ -1,0 +1,16 @@
+body{
+  margin: 0;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  }
+  header{
+    background-color: blue;
+    height: 100px;
+  }
+  main{
+    background-color: blueviolet;
+    height: 800px;
+  }
+  footer{
+    background-color: green;
+    height: 100px;
+  }
