@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,94 +8,163 @@
   <title>PORTPHOLIO</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <header>
-    <img src="" alt="">
-    <nav>
 
-    </nav>
-    <a href="tel:"></a>
+<body>
+<div class="wrapper">
+  <header>
+    <div class="navigetion">
+      <img src="./img/header-logo.png" alt="logo">
+      <nav class="anchor">
+        <a href="#first">Обо мне</a>
+        <a href="#work">Портфолио</a>
+        <a href="#price">Цены</a>
+        <a href="#post">Записаться</a>
+      </nav>
+      <a href="tel:+380961195404">+380 (96) 119 54 04</a>
+    </div>
   </header>
   <main>
-    <section>
-      <article>
-        <h1></h1>
-        <p></p>
-        <button></button>
+    <section class="visit-card">
+      <article class="info">
+        <h1>Юлия Тюлькина</h1>
+        <p>фотограф / видеооператор</p>
+        <button><a href="#post">Записаться на фотоссесию</a></button>
       </article>
-      <img src="" alt="">
+      <img src="./img/section-name.png" alt="section-name">
     </section>
-    
+
     <section class="forme">
-       
+      <h1 id="first">Обо мне</h1>
+      <div class="form">
+        <!-- <div class="form_shadow">
+          <img src="./img/section_for_me1_bg.png" alt="section_for_me1_bg"> </div>-->
+        
         <figure>
-          <img src="" alt="">
-          <figcaption></figcaption>
+          <img src="./img/section_for_me1.png" alt="section_for_me1">
+          <figcaption>Юлия Тюлькина</figcaption>
         </figure>
-      <article>
-        <h3></h3>
-        <p></p>
-        <img src="" alt="">
-      </article>
+
+
+        <article class="about">
+          <h3> Привет! Меня зовут Юля, я фотограф из Винницы</h3>
+          <p>Занимаюсь фотографией более 2 лет. Люблю живые, естественные, теплые и эмоциональные кадры. Умею работать с
+            такими инструментами как Photoshop, Lightroom.</p>
+          <p> Фотография для меня - это способ показать прекрасное в простоте,<br> то есть открыть занавес изящного и
+            ненавязчивого. Видеосъёмка является чем-то по особенному ценным, ведь можно запечатлеть момент навсегда и
+            при
+            этом оставить отпечаток в истории.</p>
+            <!-- <div class="about_bg"><img src="./img/section_for_me2_bg.png" alt="section_for_me2_bg"> </div>-->
+            <div class="about_for_me2"><img src="./img/section_for_me2.png" alt="section_for_me2"></div>
+          
+        </article>
+      </div>
 
     </section>
     <section class="work">
-      <div>
-        <h4></h4>
-        <p></p>
-        <button></button>
-      </div>
-      <div>
-        <h4></h4>
-        <p></p>
-        <button></button>
-      </div>
-      <div>
-        <h4></h4>
-        <p></p>
-        <button></button>
+      <h1 id="work">Портфолио</h1>
+      <div class="work_all">
+        <div class="work_alone">
+          <img src="./img/my-work-1.png" alt="my-work-1">
+          <h4>Теплые фото у дома</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint tempora.</p>
+          <button>Все фото</button>
+        </div>
+        <div class="work_alone">
+          <img src="./img/my-work-2.png" alt="my-work-2">
+          <h4>Утреняя Видеосъёмка</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint tempora ipsa voluptate maiores expedita quia
+            qui nostrum, culpa eaque neque.</p>
+          <button>Все фото</button>
+        </div>
+        <div class="work_alone">
+          <img src="./img/my-work-3.png" alt="my-work-3">
+          <h4>Фотосесия с цветами</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint tempora ipsa voluptate maiores.</p>
+          <button>Все фото</button>
+        </div>
       </div>
 
     </section>
     <section class="price">
-      <div>
-        <img src="" alt="">
-        <h5></h5>
-        <p></p>
-        <p></p>
-        <p></p>
-        <span></span>
-        <button></button>
-      </div>
-      <div>
-        <img src="" alt="">
-        <h5></h5>
-        <p></p>
-        <p></p>
-        <p></p>
-        <span></span>
-        <button></button>
+      <h1 id="price">Цена</h1>
+      <div class="price_all">
+        <div class="price_alone">
+          <img src="./img/prise.png" alt="price">
+          <h4>Фотосессия</h4>
+          <div>
+            <h5>Продолжительность</h5>
+            <p>1 час</p>
+          </div>
+          <div>
+            <h5>Время обработки фото</h5>
+            <p>5 дней</p>
+          </div>
+          <div>
+            <h5>Количество фото</h5>
+            <p>20 штук</p>
+          </div>
+          <div class="price_order">
+            <span>200 грн</span>
+            <button>Заказать сейчас</button>
+          </div>
+        </div>
+        
+        <div class="price_alone">
+          <img src="./img/prise.png" alt="price">
+          <h4>Видеосъёмка</h4>
+          <!-- <div class="price_time"> </div>-->
+            <div>
+              <h5>Продолжительность</h5>
+              <p>1 час</p>
+            </div>
+            <div>
+              <h5>Время обработки фото</h5>
+              <p>5 дней</p>
+            </div>
+            <div>
+              <h5>Количество фото</h5>
+              <p>20 штук</p>
+            </div>
+            <div class="price_order">
+              <span>300 грн</span>
+              <button>Заказать сейчас</button>
+            </div>
+          
+        </div>
       </div>
     </section>
-    <form action="post">
-      <img src="" alt="">
-      <img src="" alt="">
-      <div>
-        <input type="text">
-        <input type="email" name="" id="">
-        <textarea name="" id="" cols="30" rows="10"></textarea>
-        <input type="submit" value="">
+    <div class="post">
+      <h1 id="post">Записаться к Юле</h1>
+      <div class="post_all">
+        <div class="form-down">
+          <img src="./img/form-down.png" alt="form-down">
+        </div>
+        <div class="form-up">
+          <img src="./img/form_up.png" alt="form_up">
+        </div>
+        <form class="post_form">
+          <input type="text" name="name" placeholder="Имя..." id="name">
+          <input type="email" name="mail" id="mail" placeholder="E-mail...">
+          <textarea name="message" id="message" placeholder="Сообщение..."></textarea>
+          <input type="submit" value="Отправить" id="submit">
+
+        </form>
       </div>
-    </form>
+    </div>
   </main>
+
   <footer>
-    <img src="" alt="">
+    <img src="./img/header-logo.png" alt="logo">
     <address>
+      <a href="#"><img src="./img/instagram.png" alt="instagram"></a>
+      <a href="#"><img src="./img/facebook.png" alt="facebook"></a>
+      <a href="#"><img src="./img/mail.png" alt="mail"></a>
 
     </address>
-    <a href="tel:"></a>
+    <a class="call" href="tel:+380 (96) 119 54 04">+380 (96) 119 54 04</a>
 
   </footer>
-  
+</div>
 </body>
+
 </html>
